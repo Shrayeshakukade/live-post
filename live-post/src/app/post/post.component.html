@@ -1,0 +1,7 @@
+<h3>{{post.title}}</h3>
+<p>{{post.desc}}
+</p>
+<img class="img-responsive" src="{{post.imagePath}}">
+<p>Post Added by:{{post.postAddedBy}}</p>
+<p>Post Datetime: {{post.postDateTime}}</p>
+<button type="button" (click)="onEdit()">Edit</button> | <button type="button"(click)="onDelete()">Delete</button> 
